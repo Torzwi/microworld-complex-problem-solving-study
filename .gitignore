@@ -1,0 +1,57 @@
+# Unreal Engine: generierte Ordner
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Generierte Plugin-Dateien
+Plugins/**/Binaries/
+Plugins/**/Intermediate/
+
+# Visual Studio / IDE
+.vs/
+.idea/
+.vscode/
+
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.xcodeproj
+*.xcworkspace
+
+# Kompilierte Dateien
+*.slo
+*.lo
+*.o
+*.obj
+*.gch
+*.pch
+*.so
+*.dylib
+*.dll
+*.lib
+*.a
+*.exe
+*.out
+*.app
+*.ipa
+
+# Build-Ausgaben ignorieren,
+# Icons innerhalb von Build aber behalten
+Build/*
+!Build/*/
+Build/*/**
+!Build/**/*.ico
+
+# Betriebssystem-Dateien
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporäre Dateien
+*.tmp
+*.temp
+*.log
